@@ -15,7 +15,7 @@ server.route({
 	method: 'GET',
 	path: '/',
 	handler: function(request, reply) {
-		repy("hello, bitch")
+		reply("hello, bitch")
 	}
 });
 
