@@ -9,7 +9,6 @@ var Readable = require('stream').Readable
 const server = new Hapi.Server();
 server.connection({
 	port: process.env.PORT || 3000,
-	host: 'localhost'
 });
 
 server.route({
