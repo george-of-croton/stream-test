@@ -1,29 +1,30 @@
 {
-  "name": "streamly",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/george-of-croton/stream-test.git"
-  },
-  "keywords": [
-    "stream",
-    "hapi",
-    "webshot"
-  ],
-  "author": "George Armstrong",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/george-of-croton/stream-test/issues"
-  },
-  "homepage": "https://github.com/george-of-croton/stream-test#readme",
-  "dependencies": {
-    "hapi": "^16.1.0",
-    "request": "^2.79.0",
-    "webshot": "^0.18.0"
-  }
+    "name": "streamly",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/george-of-croton/stream-test.git"
+    },
+    "keywords": [
+        "stream",
+        "hapi",
+        "webshot"
+    ],
+    "author": "George Armstrong",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/george-of-croton/stream-test/issues"
+    },
+    "homepage": "https://github.com/george-of-croton/stream-test#readme",
+    "dependencies": {
+        "hapi": "^16.1.0",
+        "request": "^2.79.0",
+        "webshot": "^0.18.0"
+    }
 }
