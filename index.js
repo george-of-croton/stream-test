@@ -2,7 +2,7 @@ var request = require('request');
 var fs = require('fs')
 
 request.get({
-	url: 'http://localhost:3000',
+	url: 'https://desolate-garden-39734.herokuapp.com/',
 	encoding: 'binary'
 }, function(err, response, body) {
 	fs.writeFile("./test.png", body, 'binary', function(err) {

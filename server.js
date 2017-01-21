@@ -16,13 +16,21 @@ server.route({
 	method: 'GET',
 	path: '/',
 	handler: function(request, reply) {
+		repy("hello, bitch")
+	}
+});
+
+server.route({
+	method: 'GET',
+	path: '/{name}',
+	handler: function(request, reply) {
 		webshot('google.com', function(err, renderStream) {
 			console.log(renderStream)
 			var readableStream = new Readable().wrap(renderStream)
 			reply(readableStream)
-		});
+		})
 	}
-})
+});
 
 server.start((err) => {
 
